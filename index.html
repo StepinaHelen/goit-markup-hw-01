@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студия</title>
+    <title>Веб Студия</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
     <header>
       <nav>
-        <a href="./index.html"> Web Studio </a>
+        <a href="./index.html" lang="en"> <span>Web</span> Studio </a>
 
         <ul>
           <li><a href="">Студия</a></li>
@@ -21,12 +21,21 @@
 
       <ul>
         <li>
-          <img src="./images/email.svg" alt="email" />
-          <a href="">info@devstudio.com</a>
+          <address>
+            <img src="./images/email.svg" alt="почта" /><a
+              href="mailto:info@devstudio.com"
+            >
+              info@devstudio.com</a
+            >
+          </address>
         </li>
         <li>
-          <img src="./images/smartphone.svg" alt="phone" />
-          <a href="">+38 096 111 11 11</a>
+          <address>
+            <img src="./images/smartphone.svg" alt="телефон" /><a
+              href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
         </li>
       </ul>
     </header>
@@ -41,8 +50,8 @@
       </section>
 
       <section>
-        <!--Особенности-->
-        <h2>Особенности</h2>
+        <!--О нас-->
+        <h2 hidden>О нас</h2>
         <ul>
           <li>
             <img src="./images/antenna.svg" alt="Антена" />
@@ -85,15 +94,30 @@
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="./images/desktop.jpg" alt="Компьютер" width="370" height="294"/>
+            <img
+              src="./images/desktop.jpg"
+              alt="Компьютер"
+              width="370"
+              height="294"
+            />
             <h3>Десктопные приложения</h3>
           </li>
           <li>
-            <img src="./images/mobile.jpg" alt="Смартфон" width="370" height="294"/>
+            <img
+              src="./images/mobile.jpg"
+              alt="Смартфон"
+              width="370"
+              height="294"
+            />
             <h3>Мобильные приложения</h3>
           </li>
           <li>
-            <img src="./images/design.jpg" alt="Картинка" width="370" height="294" />
+            <img
+              src="./images/design.jpg"
+              alt="Картинка"
+              width="370"
+              height="294"
+            />
             <h3>Дизайнерские решения</h3>
           </li>
         </ul>
@@ -103,29 +127,15 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/team1.jpg" alt="Николай Кучеренко" width="270" height="260" />
+            <img
+              src="./images/team1.jpg"
+              alt="Николай Кучеренко"
+              width="270"
+              height="260"
+            />
             <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
-            <!--Будет со ссылками или без?-->
-            <ul>
-              <li>
-                <a href="" aria-label="инстаграмм"><img src="./images/instagram.svg" alt="инстаграмм" /></a>
-              </li>
-              <li>
-                <a href="" aria-label="твиттер"><img src="./images/twitter.svg" alt="твиттер" /></a>
-              </li>
-              <li>
-                <a href="" aria-label="фейсбук"><img src="./images/facebook.svg" alt="фейсбук" /></a>
-              </li>
-              <li>
-                <a href="" aria-label="линкедин"><img src="./images/linkedin.svg" alt="линкедин" /></a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="./images/team2.jpg" alt="Ольга Иванова"  width="270" height="260"/>
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <p lang="en">Product Designer</p>
+
             <ul>
               <li>
                 <a href="" aria-label="инстаграмм"
@@ -133,10 +143,14 @@
                 /></a>
               </li>
               <li>
-                <a href="" aria-label="твиттер"><img src="./images/twitter.svg" alt="твиттер" /></a>
+                <a href="" aria-label="твиттер"
+                  ><img src="./images/twitter.svg" alt="твиттер"
+                /></a>
               </li>
               <li>
-                <a href="" aria-label="фейсбук"><img src="./images/facebook.svg" alt="фейсбук" /></a>
+                <a href="" aria-label="фейсбук"
+                  ><img src="./images/facebook.svg" alt="фейсбук"
+                /></a>
               </li>
               <li>
                 <a href="" aria-label="линкедин"
@@ -146,40 +160,98 @@
             </ul>
           </li>
           <li>
-            <img src="./images/team3.jpg" alt="Андрей Шевченко" width="270" height="260" />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
-          <ul>
-            <li>
-              <a href="" aria-label="инстаграмм"><img src="./images/instagram.svg" alt="инстаграмм" /></a>
-            </li>
-            <li>
-              <a href="" aria-label="твиттер"><img src="./images/twitter.svg" alt="твиттер" /></a>
-            </li>
-            <li>
-              <a href="" aria-label="фейсбук"><img src="./images/facebook.svg" alt="фейсбук" /></a>
-            </li>
-            <li>
-              <a href="" aria-label="линкедин"><img src="./images/linkedin.svg" alt="линкедин" /></a>
-            </li>
-          </ul>
-          </li>
-          <li>
-            <img src="./images/team4.jpg" alt="Иван Николаев" width="270" height="260"/>
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <img
+              src="./images/team2.jpg"
+              alt="Ольга Иванова"
+              width="270"
+              height="260"
+            />
+            <h3>Ольга Иванова</h3>
+            <p lang="en">Frontend Developer</p>
             <ul>
               <li>
-                <a href="" aria-label="инстаграмм"><img src="./images/instagram.svg" alt="инстаграмм" /></a>
+                <a href="" aria-label="инстаграмм"
+                  ><img src="./images/instagram.svg" alt="инстаграмм"
+                /></a>
               </li>
               <li>
-                <a href="" aria-label="твиттер"><img src="./images/twitter.svg" alt="твиттер" /></a>
+                <a href="" aria-label="твиттер"
+                  ><img src="./images/twitter.svg" alt="твиттер"
+                /></a>
               </li>
               <li>
-                <a href="" aria-label="фейсбук"><img src="./images/facebook.svg" alt="фейсбук" /></a>
+                <a href="" aria-label="фейсбук"
+                  ><img src="./images/facebook.svg" alt="фейсбук"
+                /></a>
               </li>
               <li>
-                <a href="" aria-label="линкедин"><img src="./images/linkedin.svg" alt="линкедин" /></a>
+                <a href="" aria-label="линкедин"
+                  ><img src="./images/linkedin.svg" alt="линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="./images/team3.jpg"
+              alt="Андрей Шевченко"
+              width="270"
+              height="260"
+            />
+            <h3>Андрей Шевченко</h3>
+            <p lang="en">Marketing</p>
+            <ul>
+              <li>
+                <a href="" aria-label="инстаграмм"
+                  ><img src="./images/instagram.svg" alt="инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="твиттер"
+                  ><img src="./images/twitter.svg" alt="твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="фейсбук"
+                  ><img src="./images/facebook.svg" alt="фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="линкедин"
+                  ><img src="./images/linkedin.svg" alt="линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="./images/team4.jpg"
+              alt="Иван Николаев"
+              width="270"
+              height="260"
+            />
+            <h3>Иван Николаев</h3>
+            <p lang="en">UI Designer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="инстаграмм"
+                  ><img src="./images/instagram.svg" alt="инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="твиттер"
+                  ><img src="./images/twitter.svg" alt="твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="фейсбук"
+                  ><img src="./images/facebook.svg" alt="фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="линкедин"
+                  ><img src="./images/linkedin.svg" alt="линкедин"
+                /></a>
               </li>
             </ul>
           </li>
@@ -190,50 +262,82 @@
         <h3>Постоянные клиенты</h3>
         <ul>
           <li>
-            <a href=""><img src="./images/logo1.svg" alt="логотип компании 1" /></a>
+            <a href="" aria-label="логотип компании 1"
+              ><img src="./images/logo1.svg" alt="логотип компании 1"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo2.svg" alt="логотип компании 2" /></a>
+            <a href="" aria-label="логотип компании 2"
+              ><img src="./images/logo2.svg" alt="логотип компании 2"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo3.svg" alt="логотип компании 3" /></a>
+            <a href="" aria-label="логотип компании 3"
+              ><img src="./images/logo3.svg" alt="логотип компании 3"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo4.svg" alt="логотип компании 4" /></a>
+            <a href="" aria-label="логотип компании 4"
+              ><img src="./images/logo4.svg" alt="логотип компании 4"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo5.svg" alt="логотип компании 5" /></a>
+            <a href="" aria-label="логотип компании 5"
+              ><img src="./images/logo5.svg" alt="логотип компании 5"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo6.svg" alt="логотип компании 6" /></a>
+            <a href="" aria-label=" логотип компании 6"
+              ><img src="./images/logo6.svg" alt="логотип компании 6"
+            /></a>
           </li>
         </ul>
       </section>
     </main>
     <!--футер-->
     <footer>
-      <a href="./index.html"> Web Studio </a>
-      <address>
-        г. Киев, пр-т Леси Украинки, 26</br> 
-        <a href="mailto:info@example.com">info@example.com</a></br>
-        <a href="tel: +38 099 111 11 11">+38 099 111 11 11</a>
-      </address>
-      <b>присоединяйтесь</b>
-      <ul>
+      <div>
+        <a href="./index.html" lang="en"> <span>Web</span> Studio </a>
+        <ul>
           <li>
-            <a href="" aria-label="инстаграмм"><img src="./images/instagram1.svg" alt="инстаграмм" /></a>
+            <address>г. Киев, пр-т Леси Украинки, 26</address>
           </li>
           <li>
-            <a href="" aria-label="твиттер"><img src="./images/twitter1.svg" alt="твиттер" /></a>
+            <address>
+              <a href="mailto:info@example.com">info@example.com</a>
+            </address>
           </li>
           <li>
-            <a href="" aria-label="фейсбук"><img src="./images/facebook1.svg" alt="фейсбук" /></a>
+            <address><a href="tel:+380991111111">+38 099 111 11 11</a></address>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <b>присоединяйтесь</b>
+        <ul>
+          <li>
+            <a href="" aria-label="инстаграмм"
+              ><img src="./images/instagram1.svg" alt="инстаграмм"
+            /></a>
           </li>
           <li>
-            <a href="" aria-label="линкедин"><img src="./images/linkedin1.svg" alt="линкедин" /></a>
+            <a href="" aria-label="твиттер"
+              ><img src="./images/twitter1.svg" alt="твиттер"
+            /></a>
           </li>
-      </ul>
-      <p>Подпишитесь на рассылку</p>
+          <li>
+            <a href="" aria-label="фейсбук"
+              ><img src="./images/facebook1.svg" alt="фейсбук"
+            /></a>
+          </li>
+          <li>
+            <a href="" aria-label="линкедин"
+              ><img src="./images/linkedin1.svg" alt="линкедин"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
